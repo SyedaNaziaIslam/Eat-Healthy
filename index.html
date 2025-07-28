@@ -8,33 +8,53 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="font-sans">
-    <div class="flex justify-between items-center">
-        <div class="pl-15 pt-10">
-            <h1 class="text-6xl text-[#575757] leading-[70px] "><span class="font-bold text-[#fb8f48] text-7xl">Skip</span> The Diet,<br>Just Eat Healthy<br>With Food Network
+    <div class="flex flex-col md:flex-row items-center justify-between px-4 md:px-16 py-10 md:py-20">
+    <div class="w-full md:w-1/2 text-center md:text-left">
+        <h1 class="text-3xl md:text-6xl text-[#575757] leading-[40px] md:leading-[70px]">
+            <span class="font-bold text-[#fb8f48] text-4xl md:text-7xl">Skip </span>The Diet,<br>
+            Just Eat Healthy<br>With Food Network
         </h1>
-        <p class="text-[#5b5757] text-xl pt-10 pb-8">
+        <p class="text-[#5b5757] text-sm md:text-xl pt-5 md:pt-8 pb-6 md:pb-10">
             Imagine you don't need a diet because we provide healthy and delicious food for you!
         </p>
-        <button class="bg-gradient-to-r from-yellow-500 via-golden-500 to-orange-500 text-xl rounded-4xl pl-10 pr-10 pt-4 pb-4 shadow-xl shadow-indigo-500/50">Order Food</button>
-        </div>
-        <div >
-            <img class="w-[650px] h-[650px] pt-10 pr-10" src="images/Hero_Image-removebg-preview (1).png" alt="">
-        </div>
+        <button class="bg-gradient-to-r from-yellow-500 to-orange-500 text-sm md:text-xl rounded-full font-bold px-6 md:px-10 py-3 shadow-xl shadow-indigo-500/50 text-white">
+            Order Food
+        </button>
     </div>
-    <div class="flex justify-between items-center bg-cover mt-30" style="background-image: url(images/7\(1\).png); background-repeat: no-repeat;">
-        <div class="pr-20 pl-40 pt-10">
-            <img  src="images/Person Image.png" alt="">
-        </div>
-        <div>
-            <h1 class="text-5xl text-[#575757] leading-[70px]">About Me</h1>
-            <p class="text-xl pt-10 pb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sapiente autem? Possimus debitis deserunt nam quis ab esse dicta perferendis nisi nostrum, fuga molestias dolores et facilis voluptas ac cusamus quasi! Cupiditate illo quod consectetur tenetur dolores nemo aliquam ipsa harum quibusdam repudiandae, eligendi aperiam natus doloribus tempore aliquid id quasi.</p>
-            <button class="bg-gradient-to-r from-yellow-500 via-golden-500 to-orange-500 text-xl rounded-4xl pl-10 pr-10 pt-4 pb-4 shadow-xl shadow-indigo-500/50">Contact me</button>
-        </div>
+    <div class="w-full md:w-1/2 flex justify-center md:justify-end pt-10 md:pt-0">
+        <img class="w-[280px] md:w-[550px] h-auto" src="images/Hero_Image-removebg-preview (1).png" alt="Hero Image">
     </div>
-    <div class="justify-between items-center text-center pt-30 pb-30">
-        <h1 class="text-5xl text-[#707070] leading-[70px] font-semibold">My recipies</h1>
-        <p class="text-xl pt-10 pb-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+</div>
+
+    <!-- About Me Section -->
+<div class="flex flex-col md:flex-row justify-between items-center bg-cover bg-no-repeat mt-10 px-4 md:px-0" style="background-image: url('images/7(1).png');">
+    
+    <!-- Image Section -->
+    <div class="md:pr-20 md:pl-40 md:pt-10 flex justify-center md:justify-start">
+        <img class="object-fill w-[250px] md:w-auto" src="images/Person Image.png" alt="">
     </div>
+
+    <!-- Text Section -->
+    <div class="text-center md:text-left px-4 md:px-0 pt-8 md:pt-0">
+        <h1 class="text-5xl text-[#575757] leading-[50px] md:leading-[70px]">About Me</h1>
+        <p class="text-xl pt-6 md:pt-10 pb-6 md:pb-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, sapiente autem? Possimus debitis deserunt nam quis ab esse dicta perferendis nisi nostrum, fuga molestias dolores et facilis voluptas accusamus quasi! Cupiditate illo quod consectetur tenetur dolores nemo aliquam ipsa harum quibusdam repudiandae, eligendi aperiam natus doloribus tempore aliquid id quasi.
+        </p>
+        <button class="bg-gradient-to-r from-yellow-500 to-orange-500 text-xl rounded-full px-10 py-4 shadow-xl shadow-indigo-500/50 text-white font-semibold mb-10">
+            Contact me
+        </button>
+    </div>
+</div>
+
+<!-- My Recipes Section -->
+<div class="text-center pt-10 pb-10 px-4">
+    <h1 class="text-5xl text-[#707070] leading-[50px] md:leading-[70px] font-semibold">My recipes</h1>
+    <p class="text-xl pt-6 pb-8">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+    </p>
+</div>
+
 
     <div class="flex justify-center items-center gap-[40px]">
         <div class="shadow-xl p-5 rounded-lg">
